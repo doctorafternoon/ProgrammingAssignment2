@@ -6,6 +6,12 @@
 ##             matrix data, checking for a cached version before performing a
 ##             new calculation 
 
+## Use example:
+##
+## > testmat <- makeCacheMatrix(matrix(runif(9), 3, 3))
+## > cacheSolve(testmat)
+## > cacheSolve(testmat)
+
 
 ## takes a matrix 'x' (assumed to be invertible), returns a matrix cache object 
 makeCacheMatrix <- function(x = matrix()) {
