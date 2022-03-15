@@ -2,6 +2,8 @@
 ## makeCacheMatrix: takes a matrix 'x' and creates a matrix cache object,
 ##                  containing 'x' as data and associated cache functions
 
+## Note: matrix cache must be stored as an environment object before cache use
+
 ## cacheSolve: takes a matrix cache object and returns the inverse of the stored
 ##             matrix data, checking for a cached version before performing a
 ##             new calculation 
